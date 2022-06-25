@@ -1,1 +1,268 @@
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=PT+Sans:wght@700&family=Prompt:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet"> 
+<nav id="navbar">
+  <ul class="sc">
+    <li><a href="#welcome-section">About</a></li>
+    <li><a href="#projects">Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<section class="welcome-section" id="welcome-section">
+  <div class="profile"> 
+  <img src="https://scontent.fhdd2-1.fna.fbcdn.net/v/t39.30808-6/284092574_1048116219458908_3197232317539286241_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG6E7iF8TBI3p6Y5eWqUyIzibrdQMdKUyKJut1Ax0pTIszEzVoN4TqCcuWybgmItrwHg_dqefEM-b_HYa_QhDzV&_nc_ohc=IKwfxJw45NgAX-5a2pw&_nc_ht=scontent.fhdd2-1.fna&oh=00_AT-eoam7tuXQIMb17C0UMVv0p2F-GQx4ygG3tH2DuxL-Ww&oe=62BB4299">
+  </div>
+  <div id="context">
+  <h1>Hello, I'm Adnan Ahmed!</h1>
+    <p>I'm a student of Quiad-i-Azam University, doing bachelor's in Statistics</p>
+  </div>
+</section>
 
+</section>
+<section id="projects" class="projects-section">
+  <h2>These are my initial programming projects</h2>
+  <div class="projects-tile">
+    <a href="https://codepen.io/adnan-ahmed-abro/pen/RwgwamY"
+       target="_blank"
+       id="project-link"
+       />
+    <img class="project-image"
+         src="https://wallpaperaccess.com/full/934137.jpg"
+         alt="project"
+         />
+    <p class="project-title">Tribute Page</p>
+    </a>
+   <a id="project-link"
+      href="https://codepen.io/adnan-ahmed-abro/pen/WNOvLMG"
+      target="_blank"
+      />
+  <img class="project-image"
+      src="https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/2019/05/business-communication-feature-image-1.png"
+       alt="project"
+       />
+  <p class="project-title">
+    Survey Page </p>
+  </a>
+<a id="project-link"
+   href="https://codepen.io/adnan-ahmed-abro/details/zYzvNrx"
+   target="_blank"
+   />
+<img class="project-image"
+     src="https://images.timex.com/image/upload/q_auto,f_auto/e_sharpen:120,b_white/w_265,c_fit/Catalogs/timex-master-catalog/images/TW2U96600.jpg"
+     alt="project"
+     />
+  <p class="project-title">Product Landing Page</p>
+</a>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-header">
+    <h2>Here are some of my contact options</h2>
+  </div>
+  <div class="contact-body">
+    <a id="profile-link"
+       href="https://www.facebook.com/adnanahmed.abro.315/"
+       target="_blank"
+       />
+    
+    <p class="fb"><img class=
+         "profile-icon"
+         src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png"
+         alt="icon"
+         /> Facebook</p>
+    </a>
+  <a id="profile-link"
+       href="https://github.com/adnanabro"
+       target="_blank"
+       />
+  
+    <p class="gh"><img class="profile-icon"
+         src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+         alt="icon"
+         /> Github</p>
+    </a>
+<a id="profile-link"
+       href="https://www.instagram.com/adnan_abro/"
+       target="_blank"
+       />
+
+    <p class="ig"><img class="profile-icon"
+         src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png"
+         alt="icon"
+         /> Instagram</p>
+    </a>
+  </div>
+</section>
+
+<style>
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+body {
+  font-family: PT Sans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #413323;
+}
+
+#navbar {
+  font-family: Prompt;
+  position: fixed;
+  background: linear-gradient(20deg, #00331a, #1a8cff);
+  width: 100%;
+  height: 60px;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+#navbar ul {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+#navbar li {
+  position: relative;
+  list-style: none;
+  margin: 8px;
+}
+#navbar a {
+  padding: 0px 30px 0px 20px;
+  color: #413323;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.welcome-section {
+  height: 600px;
+  max-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(90deg, #f1d9b3, #008090);
+}
+
+.welcome-section img {
+  positon: fixed;
+  width: 250px;
+  border: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-section p {
+  width: 400px;
+  margin-left: 30px;
+}
+#context {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  height: 43rem;
+  width: 100%;
+  max-width: 1269px;
+}
+
+.projects-tile {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-tile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact {
+  background: linear-gradient(20deg, #00331a, #1a8cff);
+  height: 400px;
+  width: 100%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-alignment: center;
+}
+
+.contact-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: center;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#projects a {
+  text-decoration: none;
+  color: black;
+}
+
+.profile-icon {
+  width: 40px;
+  border-radius: 2px;
+}
+
+.fb {
+  color: #3b5998;
+}
+
+.gh {
+  color: #333;
+}
+
+.ig {
+  color: #833ab4;
+}
+
+</style>
+</html>
